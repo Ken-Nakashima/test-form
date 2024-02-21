@@ -24,6 +24,7 @@
   <form action="index.php" method="post">
 
     <h2>ユーザ登録</h2>
+    
 
     <div>
       <label for="user-name">ユーザー名 (必須)</label>
@@ -61,7 +62,7 @@
     </div>
 
     <div><button type="submit">登録する</button></div>
-    
+
   </form>
 </div>
 
