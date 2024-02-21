@@ -22,10 +22,8 @@
   <div class="registration-form">
 
   <form action="index.php" method="post">
-
+    <!-- フォームタイトル -->
     <h2>ユーザ登録</h2>
-    
-
     <div>
       <label for="user-name">ユーザー名 (必須)</label>
       <input id="user-name" type="text" name="user-name" placeholder="山田太郎">
