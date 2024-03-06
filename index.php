@@ -1,5 +1,29 @@
 <?php 
-// echo "test"
+$val = "hensudesu";
+$val .= "123";
+const con = "teisudesu";
+
+$result = true;
+
+$arr = ["zero","one","two"];
+
+
+echo "変数の中身→{$val}";
+echo "<br>";
+echo con;
+echo "<br>";
+echo $result;
+echo "<br>";
+echo "<pre>";
+echo var_dump($arr);
+echo "</pre>";
+
+foreach($arr as $i){
+  echo "<pre>";
+  echo $i;
+  echo "</pre>";
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -26,28 +50,30 @@
     <h2>ユーザ登録</h2>
     <div>
       <label for="user-name">ユーザー名 (必須)</label>
-      <input id="user-name" type="text" name="user-name" placeholder="山田太郎">
+      <input id="user-name" type="text" name="user-name" >
     </div>
-    
+    <!-- placeholder="山田太郎" -->
+
     <div>
       <label for="e-mail">Eメール (必須)</label>
-      <input id="e-mail" type="email" name="e-mail" placeholder="taro.yammada@google.com">
+      <input id="e-mail" type="email" name="e-mail" >
     </div>
+    <!-- placeholder="taro.yammada@google.com" -->
 
     <div>
       <label for="birthday">生年月日</label>
       <input id="birthday" type="date" name="birthday">
     </div>
 
-    <div>
+    <!-- <div>
       <label for="note">備考</label>
       <textarea id="note" name="note" rows="6"></textarea>
-    </div>
+    </div> -->
     
-    <div>
+    <!-- <div>
       <label for="attachment">添付ファイル</label>
       <input id="attachment" type="file" name="attachment">
-    </div>
+    </div> -->
 
     <div class="hobby-selection">
       <label>興味のある事柄</label>
