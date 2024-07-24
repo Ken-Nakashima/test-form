@@ -1,28 +1,4 @@
 <?php 
-// $val = "hensudesu";
-// $val .= "123";
-// const con = "teisudesu";
-
-// $result = true;
-
-// $arr = ["zero","one","two"];
-
-
-// echo "変数の中身→{$val}";
-// echo "<br>";
-// echo con;
-// echo "<br>";
-// echo $result;
-// echo "<br>";
-// echo "<pre>";
-// echo var_dump($arr);
-// echo "</pre>";
-
-// foreach($arr as $i){
-//   echo "<pre>";
-//   echo $i;
-//   echo "</pre>";
-// }
 
 $arr = array(
   "item1"=>"one",
@@ -108,15 +84,8 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     }
 
   }
-
 }
 
-
 ?>
-
-
-
-
-
 </body>
 </html>
